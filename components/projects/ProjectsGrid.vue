@@ -131,7 +131,7 @@ export default {
             aria-label="Name"
           />
         </div>
-        <ProjectsFilter @change="selectedProject = $event" />
+        <!-- <ProjectsFilter @change="selectedProject = $event" /> -->
       </div>
     </div>
 
@@ -152,7 +152,8 @@ export default {
         "
         aria-label="Single Project"
       >
-        <NuxtLink :to="`/projects/${project.id}`">
+       
+        <a :href="project.link" target="_blank" rel="noopener noreferrer">
           <div>
             <img
               :src="project.img"
@@ -181,7 +182,7 @@ export default {
               >{{ project.category }}</span
             >
           </div>
-        </NuxtLink>
+        </a>
       </div>
     </div>
   </div>

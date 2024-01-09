@@ -65,7 +65,7 @@ export default {
                 "
               >
                 <h5 class="text-primary-dark dark:text-primary-light text-xl">
-                  What project are you looking for?
+                  Trying to reach out to me?
                 </h5>
                 <button
                   class="px-4 text-primary-dark dark:text-primary-light"
@@ -129,7 +129,7 @@ export default {
                       aria-label="Email"
                     />
                   </div>
-                  <div class="mt-6">
+                  <!-- <div class="mt-6">
                     <select
                       class="
                         w-full
@@ -158,7 +158,7 @@ export default {
                         {{ category.name }}
                       </option>
                     </select>
-                  </div>
+                  </div> -->
 
                   <div class="mt-6">
                     <textarea
@@ -180,34 +180,41 @@ export default {
                       cols="14"
                       rows="6"
                       aria-label="Details"
-                      placeholder="Project description"
+                      placeholder="Little side note"
                     ></textarea>
-                  </div>
-
-                  <div class="mt-6 pb-4 sm:pb-1">
-                    <Button
-                      title="Send Request"
-                      class="
-                        px-4
-                        sm:px-6
-                        py-2
-                        sm:py-2.5
-                        text-white
-                        bg-indigo-500
-                        hover:bg-indigo-600
-                        rounded-md
-                        focus:ring-1 focus:ring-indigo-900
-                        duration-500
-                      "
-                      type="submit"
-                      aria-label="Submit Request"
-                    />
                   </div>
                 </form>
               </div>
               <div
-                class="modal-footer mt-2 sm:mt-0 py-5 px-8 border0-t text-right"
+                class="
+                  modal-footer
+                  mb-4
+                  space-x-2
+                  sm:mt-0
+                  pb-5
+                  px-8
+                  border0-t
+                  text-right
+                "
               >
+                <Button
+                  title="Send Request"
+                  class="
+                    px-4
+                    sm:px-6
+                    py-2
+                    sm:py-2.5
+                    text-white
+                    bg-indigo-500
+                    hover:bg-indigo-600
+                    rounded-md
+                    focus:ring-1 focus:ring-indigo-900
+                    duration-500
+                  "
+                  type="submit"
+                  aria-label="Submit Request"
+                />
+
                 <Button
                   title="Close"
                   class="

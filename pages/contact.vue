@@ -8,17 +8,27 @@ export default {
       contacts: [
         {
           id: 1,
-          name: "Your Address, Your City, Your Country",
+          name: "1 Layi Oyekanmi Street, Apapa Lagos, Nigeria",
           icon: "map-pin",
         },
         {
           id: 2,
-          name: "email@domain.com",
+          name: "chinedu.ohagwu@gmail.com",
+          icon: "mail",
+        },
+        {
+          id: 5,
+          name: "chinedu.ohagwu@yahoo.com",
           icon: "mail",
         },
         {
           id: 3,
-          name: "555 8888 888",
+          name: "(+234) 816 5391 233",
+          icon: "phone",
+        },
+        {
+          id: 4,
+          name: "(+234) 705 5959 007",
           icon: "phone",
         },
       ],

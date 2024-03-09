@@ -58,7 +58,7 @@ export default {
           text-gray-400
         "
       >
-        A Frontend Developer Specializing in Vue.js & Nuxt.js.
+        A Frontend Developer Specializing in Javascript technologies in building applications.
       </p>
       <div class="flex justify-center sm:block">
         <a

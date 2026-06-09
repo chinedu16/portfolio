@@ -4,34 +4,34 @@ export default {
   data: () => {
     return {
       experiences: [
-        {
-          id: 1,
-          role: "Senior Frontend Engineer",
-          company: "Leatherback",
-          timeframe: "Mar 2022 - Present",
-          link: "https://leatherback.co/",
-          description:
-            "Design and implement new features and enhancements using NuxtJs on the client application - Debugging and Improvement of existing systems",
-          skillsets: [
-            "Vue.js",
-            "Nuxt.js",
-            "TypeScript",
-            "Pinia",
-            "Vuex",
-            "TailwindCss",
-            "Ant Design",
-            "Contentfull",
-          ],
-        },
+        // {
+        //   id: 1,
+        //   role: "Senior Frontend Engineer",
+        //   company: "Leatherback",
+        //   timeframe: "Mar 2022 - Present",
+        //   link: "https://leatherback.co/",
+        //   description:
+        //     "Design and implement new features and enhancements using NuxtJs on the client application - Debugging and Improvement of existing systems",
+        //   skillsets: [
+        //     "Vue.js",
+        //     "Nuxt.js",
+        //     "TypeScript",
+        //     "Pinia",
+        //     "Vuex",
+        //     "TailwindCss",
+        //     "Ant Design",
+        //     "Contentfull",
+        //   ],
+        // },
         {
           id: 2,
-          role: "Software Engineer (Frontend)",
+          role: "Senior Software Engineer (Frontend)",
           company: "Youverify",
-          timeframe: "Oct 2021 - Nov 2022",
+          timeframe: "Oct 2021 - June 2026",
           link: "https://youverify.co/",
           description:
             "Design and implement new features and enhancements using Vue.js, Fix bugs assigned during the sprint planning process, Design, innovate and solve complex problems inherent in operating a high scale classifieds platform, Play a key role in reviewing and approving the work of your peers as part of the software development process, Interact with product owners, partners, and business stakeholders to understand and develop requirements, Debugging and Improvement of existing systems, Building modular and reusable components and libraries, Other tasks as assigned by management.",
-          skillsets: ["Vue.js", "Nuxt.js", "Vuex", "TailwindCss", "Strapi"],
+          skillsets: ["Vue.js", "Nuxt.js", "Vuex", "TailwindCss", "Strapi", "NextJs"],
         },
         {
           id: 3,
